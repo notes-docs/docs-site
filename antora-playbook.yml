@@ -7,12 +7,12 @@ runtime:
   fetch: true
 content:
   sources:
-  - url: https://gitlab+deploy-token-3:Gdxh6LsSEHRHFy9cNt-7@gitlab.liaozhonghao.cn/study_note/docs.git
-    branches: [main]
+  - url: https://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:@https://github.com/notes-docs/docs-site.git
+    branches: [master]
     start_paths: home
-  - url: https://gitlab+deploy-token-2:MqXLXF9TvkkT1ihsoz6s@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antorauimanual.git
-    branches: [main]
-  - url: https://gitlab+deploy-token-1:3HRRSEysfWSTbDcrm9No@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoramanual.git
+  - url: https://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:@https://github.com/notes-docs/AntoraManual.git
+    branches: [master]
+  - url: https://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:@https://github.com/notes-docs/AntoraUIManual.git
     branches: [master]
 ui:
   bundle:
