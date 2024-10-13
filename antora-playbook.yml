@@ -10,10 +10,9 @@ content:
   - url: https://@github.com/notes-docs/docs-site.git
     branches: [master]
     start_paths: home
-  - url: https://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:@github.com/notes-docs/AntoraManual.git
+  - url: https://github.com/notes-docs/AntoraManual.git
     branches: [master]
-
-  - url: https://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:@github.com/notes-docs/AntoraUIManual.git
+  - url: https://github.com/notes-docs/AntoraUIManual.git
     branches: [master]
 ui:
   bundle:

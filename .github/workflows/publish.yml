@@ -12,6 +12,10 @@ permissions:
   contents: read
   pages: write
   id-token: write
+
+env:
+  GIT_CREDENTIALS: https://${{ secrets.PAGE_TOKEN }}:@github.com
+
 jobs:
   build:
     runs-on: ubuntu-latest
