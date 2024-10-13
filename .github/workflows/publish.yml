@@ -20,7 +20,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: List Environment Variables
-      - run: env
+        run: env
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Configure Pages
