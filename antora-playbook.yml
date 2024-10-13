@@ -1,0 +1,34 @@
+site:
+  title: Docs
+  url: https://docs.liaozhonghao.cn/
+  start_page: home::index.adoc
+  robots: allow
+runtime:
+  fetch: true
+content:
+  sources:
+  - url: https://gitlab+deploy-token-3:Gdxh6LsSEHRHFy9cNt-7@gitlab.liaozhonghao.cn/study_note/docs.git
+    branches: [main]
+    start_paths: home
+  - url: https://gitlab+deploy-token-2:MqXLXF9TvkkT1ihsoz6s@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antorauimanual.git
+    branches: [main]
+  - url: https://gitlab+deploy-token-1:3HRRSEysfWSTbDcrm9No@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoramanual.git
+    branches: [master]
+ui:
+  bundle:
+#    url: https://github.com/tigergraph/antora-ui/blob/main/build/ui-bundle.zip?raw=true
+#    url: https://gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoraui/-/jobs/96/artifacts/raw/build/ui-bundle.zip?inline=false
+#    url: https://gitlab+deploy-token-4:s_1BFcsLAv9gKnmRKdw-@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoraui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+     # https://gitlab.com/api/v4/projects/<project-id>/jobs/artifacts/main/raw/review/index.html?job=build (免费私有库存在问题)
+     url: ./ui/ui-bundle.zip
+#     snapshot: true
+asciidoc:
+  attributes:
+    page-component-order: '!home, antoraUI-manual, antora-manual'
+  extensions:
+  - ./libs/tabs-block.js
+urls:
+  html_extension_style: drop
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: current
+  redirect_facility: gitlab

@@ -1,0 +1,17 @@
+image:
+  name: antora/antora:3.0.1
+
+pages:
+  stage: deploy
+  tags:
+    - docker
+  rules:
+    - if: $CI_PROJECT_PATH == 'study_note/docs' && $CI_COMMIT_BRANCH == 'main'
+  cache:
+    paths:
+      - .cache
+  script:
+    - antora --fetch --cache-dir .cache/study_note/docs --attribute page-pagination= --redirect-facility gitlab --to-dir public antora-playbook.yml --stacktrace
+  artifacts:
+    paths:
+      - public

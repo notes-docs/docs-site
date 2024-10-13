@@ -1,0 +1,50 @@
+= 开发工具
+:navtitle: home
+:page-role: home
+
+提升开发效率的文档。
+
+== Antora相关
+
+文档开发效率工具
+
+[.home-card,cols="3,3,3",grid=none,frame=none]
+|===
+a|
+=== Antora手册
+
+A fully-managed cloud database built on the fast and highly scalable TigerGraph Enterprise Server engine.
+
+xref:3.1@antora-manual:ROOT:index.adoc[]
+
+a|
+=== AntoraUI手册
+The world’s fastest and most scalable graph analytics platform, enabling real-time big data applications.
+
+xref:1.1@antoraUI-manual:ROOT:index.adoc[]
+
+a|
+=== Asciidoctor手册
+TigerGraph's comprehensive graph language for designing schemas, loading data, querying, and analyzing your graph.
+
+xref:1.1@asciidoctor-pdf:ROOT:00.adoc[]
+|===
+
+== 软件管理相关
+
+软件开发效率工具
+
+[.home-card,cols="3,3",grid=none,frame=none]
+|===
+a|
+=== Jira8Essentials
+An intuitive, browser-based interface for graph-based application development tasks.
+
+xref:1.0@Jira8Essentials:ROOT:index.adoc[]
+a|
+=== JiraInAction
+Your hub for managing and monitoring system operation and access privileges.
+
+xref:1.0@JiraInAction:ROOT:index.adoc[]
+
+|===
