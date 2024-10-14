@@ -1,6 +1,7 @@
 site:
   title: Docs
-  url: https://docs.liaozhonghao.cn/
+  url: https://github.com/notes-docs/
+  base_url: https://example.com/docs-site/
   start_page: home::index.adoc
   robots: allow
 runtime:
