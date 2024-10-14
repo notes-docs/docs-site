@@ -15,6 +15,7 @@ permissions:
 
 env:
   GIT_CREDENTIALS: https://${{ secrets.PAGE_TOKEN }}:@github.com
+  CI: true
 
 jobs:
   build:
