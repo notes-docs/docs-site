@@ -7,7 +7,7 @@ runtime:
   fetch: true
 content:
   sources:
-  - url: https://@github.com/notes-docs/docs-site.git
+  - url: https://github.com/notes-docs/docs-site.git
     branches: [master]
     start_paths: home
   - url: https://github.com/notes-docs/AntoraManual.git
@@ -31,4 +31,9 @@ urls:
   html_extension_style: drop
   latest_version_segment_strategy: redirect:to
   latest_version_segment: current
-  redirect_facility: disabled
+#  redirect_facility: disabled
+antora:
+  extensions:
+    #    - '@antora/pdf-extension'
+    - require: '@antora/lunr-extension'
+      languages: [en, zh]
