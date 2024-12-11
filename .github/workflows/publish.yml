@@ -15,6 +15,7 @@ permissions:
 
 env:
   GIT_CREDENTIALS: https://${{ secrets.PAGE_TOKEN }}:@github.com
+  GITHUB_TOKEN: ${{ secrets.PAGE_TOKEN }}
 
 jobs:
   build:
@@ -39,7 +40,7 @@ jobs:
       - name: Install Antora with the Antora Lunr Extension
         run: npm i antora @antora/lunr-extension nodejieba
       - name: Generate Site
-        run: npx antora antora-playbook.yml --stacktrace
+        run: sed -i s/\$GITHUB_TOKEN/$GITHUB_TOKEN/ antora-playbook.yml && npx antora antora-playbook.yml --stacktrace
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
         with:
