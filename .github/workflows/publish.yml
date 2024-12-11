@@ -39,8 +39,12 @@ jobs:
           node-version: '18'
       - name: Install Antora with the Antora Lunr Extension
         run: npm i antora @antora/lunr-extension nodejieba
+      - name: replace config env
+        run: |
+          sed -i s/\$GITHUB_TOKEN/$GITHUB_TOKEN/ antora-playbook.yml
+          cat antora-playbook.yml
       - name: Generate Site
-        run: sed -i s/\$GITHUB_TOKEN/$GITHUB_TOKEN/ antora-playbook.yml && npx antora antora-playbook.yml --stacktrace
+        run: npx antora antora-playbook.yml --stacktrace
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
         with:
