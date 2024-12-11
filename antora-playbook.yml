@@ -21,8 +21,8 @@ ui:
 #    url: https://gitlab+deploy-token-4:s_1BFcsLAv9gKnmRKdw-@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoraui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
      # https://gitlab.com/api/v4/projects/<project-id>/jobs/artifacts/main/raw/review/index.html?job=build (免费私有库存在问题)
 #     url: ./ui/ui-bundle.zip
-      url: https://github.com/notes-docs/antora-ui/actions/runs/12271114048/artifacts/2304113655
-#     snapshot: true
+     url: https://github.com/notes-docs/antora-ui/actions/runs/12271114048/artifacts/2304113655
+     snapshot: true
 asciidoc:
   attributes:
     page-component-order: '!home, antoraUI-manual, antora-manual'
