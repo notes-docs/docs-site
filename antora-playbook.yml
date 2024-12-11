@@ -27,6 +27,7 @@ ui:
 asciidoc:
   attributes:
     page-component-order: '!home, antoraUI-manual, antora-manual'
+    page-pagination: true
   extensions:
   - ./libs/tabs-block.js
 urls:
