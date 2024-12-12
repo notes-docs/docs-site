@@ -27,7 +27,7 @@ a|
 === Asciidoctor手册
 TigerGraph's comprehensive graph language for designing schemas, loading data, querying, and analyzing your graph.
 
-xref:1.1@asciidoctor-pdf:ROOT:00.adoc[]
+xref:1.0.0@asciidoctorJs:ROOT:index.adoc[]
 |===
 
 == 软件管理相关

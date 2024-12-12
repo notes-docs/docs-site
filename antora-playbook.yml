@@ -15,6 +15,8 @@ content:
     branches: [master]
   - url: https://github.com/notes-docs/AntoraUIManual.git
     branches: [master]
+  - url: https://github.com/notes-docs/AsciidoctorJs.git
+    branches: [ master ]
 ui:
   bundle:
 #    url: https://github.com/tigergraph/antora-ui/blob/main/build/ui-bundle.zip?raw=true
@@ -26,7 +28,7 @@ ui:
      snapshot: true
 asciidoc:
   attributes:
-    page-component-order: '!home, antoraUI-manual, antora-manual'
+    page-component-order: '!home, antoraUI-manual, antora-manual, asciidoctorJs'
     page-pagination: true
   extensions:
   - ./libs/tabs-block.js
