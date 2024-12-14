@@ -27,7 +27,7 @@ a|
 
 php 7 实现数据结构和算法。
 
-xref:1.0@PHP7DataStructureAndAlgorithm:ROOT:index.adoc[]
+xref:1.0@PHP7DataStructureAndAlgorithm:ROOT:index.adoc[php数据结构和算法]
 |===
 
 == Antora相关
