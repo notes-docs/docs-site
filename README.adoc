@@ -1,4 +1,7 @@
 = 手册
 
-== algolia 使用
-https://zhuanlan.zhihu.com/p/549263050
+博客网址： https://notes-docs.github.io/docs-site
+
+== 参考
+
+* https://zhuanlan.zhihu.com/p/549263050[algolia 使用]
