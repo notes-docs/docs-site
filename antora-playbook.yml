@@ -19,6 +19,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/PHP7UnderlyingDesignAndSourceCodeImplementation.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/MasteringPHPDesignPatterns.git
+    branches: [ master ]
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [master]
   - url: https://github.com/notes-docs/AntoraUIManual.git
