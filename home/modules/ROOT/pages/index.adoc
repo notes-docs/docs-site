@@ -13,7 +13,7 @@ a|
 
 php 7 学习文档。
 
-xref:1.0@LearningPHP7:ROOT:index.adoc[]
+xref:1.0@LearningPHP7:ROOT:index.adoc[PHP7学习]
 
 a|
 === AntoraUI手册
