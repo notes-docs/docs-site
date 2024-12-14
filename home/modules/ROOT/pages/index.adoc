@@ -49,6 +49,12 @@ php 设计模式演示。
 xref:1.0@MasteringPHPDesignPatterns:ROOT:index.adoc[php设计模式]
 
 a|
+=== php 扩展开发
+
+了解如何开发 php 扩展。
+
+xref:1.0@WritingPHPExtensions:ROOT:index.adoc[php扩展开发]
+
 a|
 a|
 |===
