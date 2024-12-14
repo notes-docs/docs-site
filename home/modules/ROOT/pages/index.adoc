@@ -2,7 +2,31 @@
 :navtitle: home
 :page-role: home
 
-提升开发效率的文档。
+记录平时的学习文档。
+
+== PHP
+
+[.home-card,cols="3,3,3",grid=none,frame=none]
+|===
+a|
+=== php7 学习
+
+php 7 学习文档。
+
+xref:1.0@LearningPHP7:ROOT:index.adoc[]
+
+a|
+=== AntoraUI手册
+The world’s fastest and most scalable graph analytics platform, enabling real-time big data applications.
+
+xref:1.1@antoraUI-manual:ROOT:index.adoc[]
+
+a|
+=== Asciidoctor手册
+TigerGraph's comprehensive graph language for designing schemas, loading data, querying, and analyzing your graph.
+
+xref:1.0.0@asciidoctorJs:ROOT:index.adoc[]
+|===
 
 == Antora相关
 

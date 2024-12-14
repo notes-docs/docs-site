@@ -11,6 +11,8 @@ content:
   - url: https://github.com/notes-docs/docs-site.git
     branches: [master]
     start_paths: home
+  - url: https://github.com/lzh06550107/LearningPHP7.git
+    branches: [ master ]
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [master]
   - url: https://github.com/notes-docs/AntoraUIManual.git
@@ -28,7 +30,7 @@ ui:
      snapshot: true
 asciidoc:
   attributes:
-    page-component-order: '!home, antoraUI-manual, antora-manual, asciidoctorJs'
+    page-component-order: '!home, LearningPHP7, antoraUI-manual, antora-manual, asciidoctorJs'
     page-pagination: true
   extensions:
   - ./libs/tabs-block.js
