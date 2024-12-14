@@ -1,4 +1,4 @@
-= 开发工具
+= 开发知识
 :navtitle: home
 :page-role: home
 
@@ -36,6 +36,11 @@ php 7 底层源码分析。
 
 xref:1.0@PHP7UnderlyingDesignAndSourceCodeImplementation:ROOT:index.adoc[php7底层源码分析]
 
+|===
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+
 a|
 === php 设计模式
 
@@ -43,6 +48,9 @@ php 设计模式演示。
 
 xref:1.0@MasteringPHPDesignPatterns:ROOT:index.adoc[php设计模式]
 
+a|
+a|
+a|
 |===
 
 == Antora相关

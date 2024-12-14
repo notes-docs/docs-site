@@ -9,7 +9,7 @@ runtime:
 content:
   sources:
   - url: https://github.com/notes-docs/docs-site.git
-    branches: [master]
+    branches: [ master ]
     start_paths: home
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]
@@ -21,10 +21,11 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/MasteringPHPDesignPatterns.git
     branches: [ master ]
+
   - url: https://github.com/notes-docs/AntoraManual.git
-    branches: [master]
+    branches: [ master ]
   - url: https://github.com/notes-docs/AntoraUIManual.git
-    branches: [master]
+    branches: [ master ]
   - url: https://github.com/notes-docs/AsciidoctorJs.git
     branches: [ master ]
 ui:
