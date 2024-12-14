@@ -11,7 +11,9 @@ content:
   - url: https://github.com/notes-docs/docs-site.git
     branches: [master]
     start_paths: home
-  - url: https://github.com/lzh06550107/LearningPHP7.git
+  - url: https://github.com/notes-docs/LearningPHP7.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/PHP8ProgrammingTipsTricksAndBestPractices.git
     branches: [ master ]
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [master]
