@@ -27,6 +27,10 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/TestDrivenDevelopmentWithPHP8.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/CleanCodeInPHP.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/LearningPHP7HighPerformance.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]
