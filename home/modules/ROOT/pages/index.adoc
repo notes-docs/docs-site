@@ -100,19 +100,21 @@ a|
 a|
 === Antora手册
 
-A fully-managed cloud database built on the fast and highly scalable TigerGraph Enterprise Server engine.
+Antora 工具手册详解。
 
 xref:3.1@antora-manual:ROOT:index.adoc[]
 
 a|
 === AntoraUI手册
-The world’s fastest and most scalable graph analytics platform, enabling real-time big data applications.
+
+Antora UI 手册详解。
 
 xref:1.1@antoraUI-manual:ROOT:index.adoc[]
 
 a|
 === Asciidoctor手册
-TigerGraph's comprehensive graph language for designing schemas, loading data, querying, and analyzing your graph.
+
+AsciidoctroJs 手册详解。
 
 xref:1.0.0@asciidoctorJs:ROOT:index.adoc[]
 |===
@@ -125,13 +127,15 @@ xref:1.0.0@asciidoctorJs:ROOT:index.adoc[]
 |===
 a|
 === Jira8Essentials
-An intuitive, browser-based interface for graph-based application development tasks.
 
-xref:1.0@Jira8Essentials:ROOT:index.adoc[]
+Jira8 要点详解。
+
+xref:1.0@Jira8Essentials:ROOT:index.adoc[Jira8要点]
 a|
 === JiraInAction
-Your hub for managing and monitoring system operation and access privileges.
 
-xref:1.0@JiraInAction:ROOT:index.adoc[]
+Jira 实战详解。
+
+xref:1.0@JiraInAction:ROOT:index.adoc[Jira实战]
 
 |===
