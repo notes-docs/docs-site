@@ -30,11 +30,11 @@ php 7 实现数据结构和算法。
 xref:1.0@PHP7DataStructureAndAlgorithm:ROOT:index.adoc[php数据结构和算法]
 
 a|
-=== php 底层源码分析
+=== php 设计模式
 
-php 7 底层源码分析。
+php 设计模式演示。
 
-xref:1.0@PHP7UnderlyingDesignAndSourceCodeImplementation:ROOT:index.adoc[php7底层源码分析]
+xref:1.0@MasteringPHPDesignPatterns:ROOT:index.adoc[php设计模式]
 
 |===
 
@@ -42,11 +42,18 @@ xref:1.0@PHP7UnderlyingDesignAndSourceCodeImplementation:ROOT:index.adoc[php7底
 |===
 
 a|
-=== php 设计模式
+=== php 测试驱动开发
 
-php 设计模式演示。
+使用测试驱动开发方式来开发 php。
 
-xref:1.0@MasteringPHPDesignPatterns:ROOT:index.adoc[php设计模式]
+xref:1.0@TestDrivenDevelopmentWithPHP8:ROOT:index.adoc[php 测试驱动开发]
+
+a|
+=== php 底层源码分析
+
+php 7 底层源码分析。
+
+xref:1.0@PHP7UnderlyingDesignAndSourceCodeImplementation:ROOT:index.adoc[php7底层源码分析]
 
 a|
 === php 扩展开发
@@ -62,7 +69,6 @@ php7 和 php 8 内部详解。
 
 xref:1.0@PHPInternalsBook:ROOT:index.adoc[PHP7和PHP8秘籍]
 
-a|
 |===
 
 == Antora相关
