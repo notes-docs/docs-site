@@ -71,6 +71,26 @@ xref:1.0@PHPInternalsBook:ROOT:index.adoc[PHP7和PHP8秘籍]
 
 |===
 
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== php 清洁代码
+
+详解如何在 php 中写出清洁代码。
+
+xref:1.0@CleanCodeInPHP:ROOT:index.adoc[php 清洁代码]
+
+a|
+=== php 高性能代码
+
+详解如何在 php 中写出高性能代码。
+
+xref:1.0@LearningPHP7HighPerformance:ROOT:index.adoc[php 高性能代码]
+
+a|
+a|
+|===
+
 == Antora相关
 
 文档开发效率工具
