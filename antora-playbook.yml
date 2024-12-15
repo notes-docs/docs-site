@@ -23,6 +23,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/WritingPHPExtensions.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/PHPInternalsBook.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]

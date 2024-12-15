@@ -56,6 +56,12 @@ a|
 xref:1.0@WritingPHPExtensions:ROOT:index.adoc[php扩展开发]
 
 a|
+=== PHP7和PHP8秘籍
+
+php7 和 php 8 内部详解。
+
+xref:1.0@PHPInternalsBook:ROOT:index.adoc[PHP7和PHP8秘籍]
+
 a|
 |===
 
