@@ -41,7 +41,7 @@ ui:
 #    url: https://gitlab+deploy-token-4:s_1BFcsLAv9gKnmRKdw-@gitlab.liaozhonghao.cn/study_note/tools/lightweight_language/antoraui/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
      # https://gitlab.com/api/v4/projects/<project-id>/jobs/artifacts/main/raw/review/index.html?job=build (免费私有库存在问题)
 #     url: ./ui/ui-bundle.zip
-     url: https://github.com/notes-docs/antora-ui/releases/download/v1.0.2/ui-bundle.zip
+     url: https://github.com/notes-docs/antora-ui/releases/download/v1.0.3/ui-bundle.zip
      snapshot: true
 asciidoc:
   attributes:
