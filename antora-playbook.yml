@@ -54,7 +54,7 @@ ui:
      snapshot: true
 asciidoc:
   attributes:
-    page-component-order: '!home, LearningPHP7, antoraUI-manual, antora-manual, asciidoctorJs'
+    page-component-order: '!home'
     page-pagination: true
   extensions:
   - ./libs/tabs-block.js

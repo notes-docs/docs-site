@@ -91,6 +91,22 @@ a|
 a|
 |===
 
+== 工具文档
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== Playwright
+
+Playwright 中文文档。
+
+xref:1.49@Playwright:ROOT:index.adoc[Playwright 文档]
+
+a|
+a|
+a|
+|===
+
 == Antora相关
 
 文档开发效率工具
