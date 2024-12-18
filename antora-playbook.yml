@@ -11,6 +11,10 @@ content:
   - url: https://github.com/notes-docs/docs-site.git
     branches: [ master ]
     start_paths: home
+
+  - url: https://github.com/notes-docs/TypeScriptInAction.git
+    branches: [ master ]
+
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]
   - url: https://github.com/notes-docs/PHP8ProgrammingTipsTricksAndBestPractices.git

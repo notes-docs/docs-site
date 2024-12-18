@@ -4,6 +4,22 @@
 
 记录平时的学习文档。
 
+== Web
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== TypeScript
+
+TypeScript 语言详解。
+
+xref:1.0@TypeScriptInAction:ROOT:index.adoc[TypeScript 文档]
+
+a|
+a|
+a|
+|===
+
 == PHP
 
 [.home-card,cols="3,3,3,3",grid=none,frame=none]
