@@ -9,13 +9,19 @@
 [.home-card,cols="3,3,3,3",grid=none,frame=none]
 |===
 a|
+=== EcmaScript6
+
+ECMAScript 6 (ES6) 是 JavaScript 的一个重要版本，于 2015 年正式发布。ES6 引入了许多新的特性和改进，使得 JavaScript 更加简洁、强大和易于维护。
+
+xref:1.0@UnderstandingECMAScript6:ROOT:index.adoc[JavaScript 文档]
+
+a|
 === TypeScript
 
 TypeScript 语言详解。
 
 xref:1.0@TypeScriptInAction:ROOT:index.adoc[TypeScript 文档]
 
-a|
 a|
 a|
 |===
