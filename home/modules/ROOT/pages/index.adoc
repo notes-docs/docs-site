@@ -18,11 +18,16 @@ xref:1.0@UnderstandingECMAScript6:ROOT:index.adoc[JavaScript 文档]
 a|
 === TypeScript
 
-TypeScript 语言详解。
+TypeScript 是 JavaScript 的一个超集，它为 JavaScript 添加了静态类型系统和其他一些功能。
 
 xref:1.0@TypeScriptInAction:ROOT:index.adoc[TypeScript 文档]
 
-a|
+a| NodeJs
+
+nodejs 开发详解。
+
+xref:1.0@NodejsFromNoviceToExpert:ROOT:index.adoc[Nodejs 文档]
+
 a|
 |===
 

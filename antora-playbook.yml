@@ -16,6 +16,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/TypeScriptInAction.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/NodejsFromNoviceToExpert.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]
