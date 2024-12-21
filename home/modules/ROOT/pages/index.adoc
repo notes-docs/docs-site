@@ -44,6 +44,12 @@ nodejs web开发详解。
 xref:1.0@NodejsWebDevelopment:ROOT:index.adoc[Nodejs web开发]
 
 a|
+=== Vue2 前端开发
+
+Vue2 前端开发详解。
+
+xref:2.0@frontEndDevelopmentProjectsWithVUE2:ROOT:index.adoc[Vue2 前端开发]
+
 a|
 a|
 

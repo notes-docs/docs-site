@@ -22,6 +22,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/NodejsWebDevelopment.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/frontEndDevelopmentProjectsWithVUE2.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]
