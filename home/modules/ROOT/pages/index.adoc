@@ -36,6 +36,17 @@ nodejs 设计模式详解。
 
 xref:1.0@NodejsDesignPatterns(3rd):ROOT:index.adoc[Nodejs 设计模式]
 
+a|
+=== Nodejs web开发
+
+nodejs web开发详解。
+
+xref:1.0@NodejsWebDevelopment:ROOT:index.adoc[Nodejs web开发]
+
+a|
+a|
+a|
+
 |===
 
 == PHP
