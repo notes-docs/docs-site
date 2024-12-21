@@ -34,7 +34,7 @@ a|
 
 nodejs 设计模式详解。
 
-xref:1.0@NodejsDesignPatterns:ROOT:index.adoc[Nodejs 设计模式]
+xref:1.0@NodejsDesignPatterns(3rd):ROOT:index.adoc[Nodejs 设计模式]
 
 |===
 
