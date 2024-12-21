@@ -24,6 +24,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/frontEndDevelopmentProjectsWithVUE2.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/TypeScriptFullStackDevelopment.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]
