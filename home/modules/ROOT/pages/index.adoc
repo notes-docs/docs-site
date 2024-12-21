@@ -30,6 +30,12 @@ nodejs 开发详解。
 xref:1.0@NodejsFromNoviceToExpert:ROOT:index.adoc[Nodejs 文档]
 
 a|
+=== NodeJs 设计模式
+
+nodejs 设计模式详解。
+
+xref:1.0@NodejsDesignPatterns:ROOT:index.adoc[Nodejs 设计模式]
+
 |===
 
 == PHP
