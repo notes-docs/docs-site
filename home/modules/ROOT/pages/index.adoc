@@ -58,6 +58,11 @@ TypeScript 全栈开发详解。
 xref:1.0@TypeScriptFullStackDevelopment:ROOT:index.adoc[TypeScript 全栈开发]
 
 a|
+=== Vue3 源码分析
+
+Vue3 源代码分析详解。
+
+xref:1.0@Vue3SourceCodeAnalysis:ROOT:index.adoc[Vue3 源码分析]
 
 |===
 
