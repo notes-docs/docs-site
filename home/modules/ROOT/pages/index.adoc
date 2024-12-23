@@ -160,9 +160,25 @@ a|
 a|
 === Java 入门
 
-Java 入门文档。
+Java 语言入门文档。
 
 xref:1.0@JavaFromNoviceToExpert:ROOT:index.adoc[Java 入门文档]
+
+a|
+a|
+a|
+|===
+
+== Go
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== Go 语言入门
+
+Go 语言入门文档。
+
+xref:1.0@theGoProgrammingLanguage:ROOT:index.adoc[Go 语言入门文档]
 
 a|
 a|

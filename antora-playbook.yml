@@ -53,6 +53,9 @@ content:
   - url: https://github.com/notes-docs/JavaFromNoviceToExpert.git
     branches: [ master ]
 
+  - url: https://github.com/notes-docs/theGoProgrammingLanguage.git
+    branches: [ master ]
+
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]
   - url: https://github.com/notes-docs/AntoraUIManual.git
