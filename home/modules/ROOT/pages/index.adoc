@@ -153,6 +153,22 @@ a|
 a|
 |===
 
+== Java
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== Java 入门
+
+Java 入门文档。
+
+xref:1.0@JavaFromNoviceToExpert:ROOT:index.adoc[Java 入门文档]
+
+a|
+a|
+a|
+|===
+
 == 工具文档
 
 [.home-card,cols="3,3,3,3",grid=none,frame=none]
