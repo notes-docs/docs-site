@@ -181,6 +181,12 @@ Go 语言入门文档。
 xref:1.0@theGoProgrammingLanguage:ROOT:index.adoc[Go 语言入门文档]
 
 a|
+=== gRPC 手册
+
+gPRC 中文手册。
+
+xref:1.69@gRpc:ROOT:index.adoc[gPRC 中文手册]
+
 a|
 a|
 |===

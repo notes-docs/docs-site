@@ -55,6 +55,8 @@ content:
 
   - url: https://github.com/notes-docs/theGoProgrammingLanguage.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/gRpc.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]
