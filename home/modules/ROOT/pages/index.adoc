@@ -265,6 +265,5 @@ a|
 
 使用 GitHub 加速 DevOps 管理。
 
-xref:1.0@AccelerateDevOpsWithGitHub
-:ROOT:index.adoc[GitHub实战]
+xref:1.0@AccelerateDevOpsWithGitHub:ROOT:index.adoc[GitHub实战]
 |===
