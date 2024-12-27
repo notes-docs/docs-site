@@ -74,6 +74,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/JiraInAction.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/AccelerateDevOpsWithGitHub.git
+    branches: [ master ]
 ui:
   bundle:
 #    url: https://github.com/tigergraph/antora-ui/blob/main/build/ui-bundle.zip?raw=true

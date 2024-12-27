@@ -245,7 +245,7 @@ xref:1.0.0@asciidoctorJs:ROOT:index.adoc[]
 
 软件开发效率工具
 
-[.home-card,cols="3,3",grid=none,frame=none]
+[.home-card,cols="3,3,3",grid=none,frame=none]
 |===
 a|
 === Jira8Essentials
@@ -260,4 +260,11 @@ Jira 实战详解。
 
 xref:1.0@JiraInAction:ROOT:index.adoc[Jira实战]
 
+a|
+=== 使用 GitHub 加速 DevOps
+
+使用 GitHub 加速 DevOps 管理。
+
+xref:1.0@AccelerateDevOpsWithGitHub
+:ROOT:index.adoc[GitHub实战]
 |===
