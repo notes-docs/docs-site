@@ -49,6 +49,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/LearningPHP7HighPerformance.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/laravel.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/JavaFromNoviceToExpert.git
     branches: [ master ]

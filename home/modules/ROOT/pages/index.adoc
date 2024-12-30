@@ -150,6 +150,11 @@ a|
 xref:1.0@LearningPHP7HighPerformance:ROOT:index.adoc[php 高性能代码]
 
 a|
+=== laravel 框架
+
+详解如何在 php 中使用 laravel 框架。
+
+xref:11.x@laravel:ROOT:index.adoc[laravel 框架]
 a|
 |===
 
