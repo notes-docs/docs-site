@@ -154,7 +154,7 @@ a|
 
 详解如何在 php 中使用 laravel 框架。
 
-xref:11.x@laravel:ROOT:index.adoc[laravel 框架]
+xref:11.x@Laravel:ROOT:index.adoc[laravel 框架]
 a|
 |===
 
