@@ -193,6 +193,12 @@ gPRC 中文手册。
 xref:1.69@gRpc:ROOT:index.adoc[gPRC 中文手册]
 
 a|
+=== gRPC 专家
+
+gRPC 使用演示。
+
+xref:1.0@gRpcGoForProfessionals:ROOT:index.adoc[gPRC 演示]
+
 a|
 |===
 
