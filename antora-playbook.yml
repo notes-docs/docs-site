@@ -78,6 +78,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/locust.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/RedisManual.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/Jira8Essentials.git
     branches: [ master ]

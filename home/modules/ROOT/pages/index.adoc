@@ -243,6 +243,12 @@ locust 中文文档。
 xref:2.32.5@locust:ROOT:index.adoc[locust 中文文档]
 
 a|
+=== redis
+
+redis 使用文档。
+
+xref:1.0@RedisManual:ROOT:index.adoc[redis 使用文档]
+
 a|
 |===
 
