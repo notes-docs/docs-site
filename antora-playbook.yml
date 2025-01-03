@@ -54,6 +54,8 @@ content:
 
   - url: https://github.com/notes-docs/JavaFromNoviceToExpert.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/MyBatisFromNoviceToExpert.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/theGoProgrammingLanguage.git
     branches: [ master ]

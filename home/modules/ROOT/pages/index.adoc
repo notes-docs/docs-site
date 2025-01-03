@@ -170,6 +170,12 @@ Java 语言入门文档。
 xref:1.0@JavaFromNoviceToExpert:ROOT:index.adoc[Java 入门文档]
 
 a|
+=== myBatis 入门
+
+myBatis 入门文档。
+
+xref:1.0@MyBatisFromNoviceToExpert:ROOT:index.adoc[myBatis 入门文档]
+
 a|
 a|
 |===
