@@ -170,13 +170,20 @@ Java 语言入门文档。
 xref:1.0@JavaFromNoviceToExpert:ROOT:index.adoc[Java 入门文档]
 
 a|
+=== Java 测试驱动开发
+
+使用测试驱动开发方式来开发 Java。
+
+xref:1.0@TestDrivenDevelopmentWithJava:ROOT:index.adoc[Java 测试驱动开发]
+
+a|
 === myBatis 入门
 
 myBatis 入门文档。
 
 xref:1.0@MyBatisFromNoviceToExpert:ROOT:index.adoc[myBatis 入门文档]
 
-a|
+
 a|
 |===
 
