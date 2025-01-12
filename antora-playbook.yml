@@ -56,6 +56,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/TestDrivenDevelopmentWithJava.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/SpringBootInAction.git
+    branches: [ master ]
   - url: https://github.com/notes-docs/MyBatisFromNoviceToExpert.git
     branches: [ master ]
 

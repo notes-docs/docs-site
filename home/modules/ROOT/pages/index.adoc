@@ -185,6 +185,12 @@ xref:1.0@MyBatisFromNoviceToExpert:ROOT:index.adoc[myBatis 入门文档]
 
 
 a|
+=== SpringBoot 实战
+
+SpringBoot 实战文档。
+
+xref:1.0@SpringBootInAction:ROOT:index.adoc[SpringBoot 实战文档]
+
 |===
 
 == Go
