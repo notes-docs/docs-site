@@ -62,6 +62,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/SpringInAction.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/GradleInAction.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/theGoProgrammingLanguage.git
     branches: [ master ]
