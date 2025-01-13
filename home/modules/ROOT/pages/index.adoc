@@ -183,7 +183,6 @@ myBatis 入门文档。
 
 xref:1.0@MyBatisFromNoviceToExpert:ROOT:index.adoc[myBatis 入门文档]
 
-
 a|
 === Gradle 实战
 
@@ -287,8 +286,13 @@ a|
 redis 使用文档。
 
 xref:1.0@RedisManual:ROOT:index.adoc[redis 使用文档]
-##
+
 a|
+=== mysql原理
+
+mysql 原理详解
+
+xref:1.0@HowMySqlWorks:ROOT:index.adoc[mysql 原理详解]
 |===
 
 == Antora相关
