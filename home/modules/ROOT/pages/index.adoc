@@ -209,6 +209,11 @@ SpringBoot 实战文档。
 
 xref:1.0@SpringBootInAction:ROOT:index.adoc[SpringBoot 实战文档]
 a|
+=== SpringSecurity 实战
+
+SpringSecurity 实战文档。
+
+xref:1.0@HeadFirstSpringSecurity:ROOT:index.adoc[SpringSecurity 实战文档]
 a|
 |===
 
