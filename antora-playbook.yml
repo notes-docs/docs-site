@@ -66,6 +66,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/HeadFirstSpringSecurity.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/SpringBootAndSpringCloudMicroservicesInAction.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/theGoProgrammingLanguage.git
     branches: [ master ]

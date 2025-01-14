@@ -215,6 +215,11 @@ SpringSecurity 实战文档。
 
 xref:1.0@HeadFirstSpringSecurity:ROOT:index.adoc[SpringSecurity 实战文档]
 a|
+=== SpringCloud 微服务实战
+
+SpringCloud 微服务实战文档
+
+xref:1.0@SpringBootAndSpringCloudMicroservicesInAction:ROOT:index.adoc[SpringCloudMicroservices 实战文档]
 |===
 
 == Go
