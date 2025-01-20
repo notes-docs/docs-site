@@ -268,8 +268,55 @@ Python 语言入门文档。
 xref:1.0@pythonCrashCourse:ROOT:index.adoc[Python 语言入门文档]
 
 a|
+=== Python 数据结构和算法
+
+Python 数据结构和算法文档。
+
+xref:1.0@PythonDataStructureAndAlgorithm:ROOT:index.adoc[Python 数据结构和算法文档]
+
 a|
+=== Python 测试
+
+Python 使用 Pytest2 测试文档。
+
+xref:1.0@PythonTestingWithPytest2:ROOT:index.adoc[Python 测试文档]
+
 a|
+=== Python 自动化操作
+
+Python 自动化文档。
+
+xref:1.0@PythonAutomatedOperationAndMaintenance:ROOT:index.adoc[Python 自动化文档]
+|===
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== Python3 学习
+
+Python3 学习文档。
+
+xref:1.0@python3Cookbook:ROOT:index.adoc[Python3 学习文档]
+a|
+=== Scrapy 学习
+
+Scrapy 学习文档
+
+xref:1.0@LearningScrapy:ROOT:index.adoc[Scrapy 学习文档]
+a|
+=== Scrapy开发实战
+
+scrapy 开发实战文档
+
+xref:1.0@Python3WebScrapyDevelopInAction:ROOT:index.adoc[Scrapy开发实战]
+
+a|
+=== Scrapy 案例
+
+scrapy 案例文档。
+
+xref:1.0@PythonWebScrapingCookbook:ROOT:index.adoc[Scrapy 案例]
+
 |===
 
 == 工具文档

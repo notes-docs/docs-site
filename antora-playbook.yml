@@ -80,6 +80,21 @@ content:
 
   - url: https://github.com/notes-docs/pythonCrashCourse.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/PythonDataStructureAndAlgorithm.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/PythonTestingWithPytest2.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/PythonAutomatedOperationAndMaintenance.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/python3Cookbook.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/LearningScrapy.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/Python3WebScrapyDevelopInAction.git
+    branches: [ master ]
+  - url: https://github.com/notes-docs/PythonWebScrapingCookbook.git
+    branches: [ master ]
+
 
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]
