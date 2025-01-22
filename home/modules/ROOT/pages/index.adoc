@@ -286,7 +286,24 @@ a|
 
 Python 自动化文档。
 
-xref:1.0@PythonAutomatedOperationAndMaintenance:ROOT:index.adoc[Python 自动化文档]
+
+|===
+
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+a|
+=== flask 实战
+
+flask web框架开发实战文档
+
+xref:1.0@FlaskWebFullStackDevelopmentPractical:ROOT:index.adoc[flask 实战文档]
+
+a|
+
+a|
+
+a|
+
 |===
 
 [.home-card,cols="3,3,3,3",grid=none,frame=none]

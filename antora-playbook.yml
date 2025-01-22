@@ -86,6 +86,10 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/PythonAutomatedOperationAndMaintenance.git
     branches: [ master ]
+
+  - url: https://github.com/notes-docs/FlaskWebFullStackDevelopmentPractical.git
+    branches: [ master ]
+
   - url: https://github.com/notes-docs/python3Cookbook.git
     branches: [ master ]
   - url: https://github.com/notes-docs/LearningScrapy.git
