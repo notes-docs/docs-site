@@ -222,6 +222,23 @@ SpringCloud 微服务实战文档
 xref:1.0@SpringBootAndSpringCloudMicroservicesInAction:ROOT:index.adoc[SpringCloudMicroservices 实战文档]
 |===
 
+[.home-card,cols="3,3,3,3",grid=none,frame=none]
+|===
+
+a|
+=== RocketMQ
+
+RocketMQ 原理分析。
+
+xref:1.0@RocketMQTechnologyInsider:ROOT:index.adoc[RocketMQ 文档]
+
+a|
+
+a|
+
+a|
+|===
+
 == Go
 
 [.home-card,cols="3,3,3,3",grid=none,frame=none]
