@@ -64,6 +64,16 @@ Vue3 源代码分析详解。
 
 xref:1.0@Vue3SourceCodeAnalysis:ROOT:index.adoc[Vue3 源码分析]
 
+a|
+=== Vue3和uniapp实战
+
+Vue3 和 uniapp 实战文档。
+
+xref:1.0@VueCoreTechnologyAnalysisAndUni-appCross-platform:ROOT:index.adoc[Vue3和uniapp实战]
+
+a|
+a|
+a|
 |===
 
 == PHP
