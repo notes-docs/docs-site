@@ -53,8 +53,15 @@ jobs:
       - name: Sync Images
         run: |
           # 同步图片到目标仓库目录（保留历史版本）
-          # rsync -avh --delete ./build/site/images/ ./image-repo/note-image1/assets/
-          rsync -avh --delete --remove-source-files --include='*/' --include='images/**' --exclude='*' --prune-empty-dirs ./build/site/ ./image-repo/assets/
+          # rsync -avh --delete ./build/site/images/ ./image-repo/assets/
+          # rsync -avh --delete --remove-source-files --include='*/' --include='images/**' --exclude='*' --prune-empty-dirs ./build/site/ ./image-repo/assets/
+
+          # 指定源目录和目标目录
+          SOURCE_DIR="./build/site"
+          DEST_DIR="./image-repo/assets"
+          while IFS= read -r images_dir; do
+            rsync -avh --delete --remove-source-files "$images_dir/" "$DEST_DIR/"
+          done < <(find "$SOURCE_DIR" -type d -name "images")
           
           # 配置Git身份
           cd image-repo
