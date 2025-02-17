@@ -71,8 +71,10 @@ jobs:
             # 获取相对路径，用于在目标目录中创建对应结构
             RELATIVE_PATH="${images_dir#$SOURCE_DIR}"
             echo $RELATIVE_PATH
-            echo ${RELATIVE_PATH%%/*}
-            rsync -avh --remove-source-files "$images_dir/" "$DEST_DIR/${RELATIVE_PATH%%/*}/"
+            FIRST_SUBDIR_NAME="${RELATIVE_PATH#*/}"
+            FIRST_SUBDIR_NAME="${FIRST_SUBDIR_NAME%%/*}"
+            echo $FIRST_SUBDIR_NAME
+            rsync -avh --remove-source-files "$images_dir/" "$DEST_DIR/$FIRST_SUBDIR_NAME/"
           done < <(find "$SOURCE_DIR" -type d -name "_images")
           
           # 配置Git身份
