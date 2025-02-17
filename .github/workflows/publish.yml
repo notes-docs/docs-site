@@ -40,6 +40,34 @@ jobs:
         run: npm i antora @antora/lunr-extension nodejieba
       - name: Generate Site
         run: npx antora antora-playbook.yml --stacktrace
+
+      # ========== 新增跨仓库图片上传步骤 ==========
+      - name: Setup Image Repository
+        uses: actions/checkout@v4
+        with:
+          repository: https://github.com/notes-docs/note-image1.git  # 替换为实际图片仓库
+          token: ${{ secrets.REPO_TOKEN }}       # 存储有推送权限的PAT
+          path: image-repo                      # 本地克隆路径
+          ref: gh-pages                         # 目标仓库的Pages分支
+
+      - name: Sync Images
+        run: |
+          # 同步图片到目标仓库目录（保留历史版本）
+          rsync -avh --delete ./build/site/images/ ./image-repo/assets/
+          
+          # 配置Git身份
+          cd image-repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          
+          # 提交变更
+          git add .
+          git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          
+          # 强制推送更新
+          git push origin gh-pages --force
+
+      # ========== 原有上传步骤 ==========
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
