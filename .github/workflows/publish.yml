@@ -45,7 +45,7 @@ jobs:
       - name: Setup Image Repository
         uses: actions/checkout@v4
         with:
-          repository: https://github.com/notes-docs/note-image1.git  # 替换为实际图片仓库
+          repository: https://github.com/notes-docs/note-image1  # 替换为实际图片仓库
           token: ${{ secrets.REPO_TOKEN }}       # 存储有推送权限的PAT
           path: image-repo                      # 本地克隆路径
           ref: gh-pages                         # 目标仓库的Pages分支
