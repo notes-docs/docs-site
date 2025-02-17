@@ -58,7 +58,7 @@ jobs:
 
           # 指定源目录和目标目录
           SOURCE_DIR="./build/site"
-          DEST_DIR="./image-repo"
+          DEST_DIR="./image-repo/assets"
           # 清空目录
           if [ -d "$DEST_DIR" ]; then
             # 使用 find 命令查找并删除所有文件和子目录
