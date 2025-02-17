@@ -61,7 +61,7 @@ jobs:
           DEST_DIR="./image-repo/assets"
           while IFS= read -r images_dir; do
             rsync -avh --delete --remove-source-files "$images_dir/" "$DEST_DIR/"
-          done < <(find "$SOURCE_DIR" -type d -name "images")
+          done < <(find "$SOURCE_DIR" -type d -name "_images")
           
           # 配置Git身份
           cd image-repo
