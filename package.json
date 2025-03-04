@@ -18,6 +18,7 @@
     "@antora/pdf-extension": "^1.0.0-alpha.6",
     "@antora/site-generator-default": "^3.1.1",
     "@node-rs/jieba": "^1.10.4",
+    "axios": "^1.8.1",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-connect": "^5.7.0",
