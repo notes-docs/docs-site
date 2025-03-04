@@ -103,7 +103,6 @@ content:
   - url: https://github.com/notes-docs/PythonWebScrapingCookbook.git
     branches: [ master ]
 
-
   - url: https://github.com/notes-docs/AntoraManual.git
     branches: [ master ]
   - url: https://github.com/notes-docs/AntoraUIManual.git
@@ -139,8 +138,12 @@ asciidoc:
   attributes:
     page-component-order: '!home'
     page-pagination: true
+    image1-repo-url: https://notes-docs.github.io/note-image1/assets/  # 图片 GitHub Pages的部署路径
+    image-upload-repo: 'notes-docs/note-image1'
+    image-base-dir: 'assets'
   extensions:
   - ./libs/tabs-block.js
+  - ./libs/images-url.js
 urls:
   html_extension_style: drop
   latest_version_segment_strategy: redirect:to
