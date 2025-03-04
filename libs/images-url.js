@@ -12,6 +12,8 @@ module.exports = function (registry) {
                 baseDir: doc.getAttribute('image-base-dir') || 'assets',
             }
 
+            const componentDir = doc.getAttribute('page-component-name') // Antora组件根目录
+
             try {
                 const images = doc.findBy({ context: 'image', block: true })
                 // console.dir(images)
@@ -20,7 +22,7 @@ module.exports = function (registry) {
                     const rawPath = image.getAttribute('target')
                     if (!isLocalImage(rawPath)) return
 
-                    image.setAttribute('target', formatPublicUrl(config.repo, config.baseDir, rawPath))
+                    image.setAttribute('target', formatPublicUrl(config.repo, config.baseDir, componentDir, rawPath))
                 }
             } catch (err) {
                 console.error('节点遍历失败:', err.stack)
@@ -35,7 +37,7 @@ function isLocalImage(path) {
     return !/^(https?:)?\/\//i.test(path)
 }
 
-function formatPublicUrl(repo, baseDir, filename) {
+function formatPublicUrl(repo, baseDir, componentDir, filename) {
     const [user, repoName] = repo.split('/')
-    return `https://${user}.github.io/${repoName}/${baseDir}/${filename}`
+    return `https://${user}.github.io/${repoName}/${baseDir}/${componentDir}/${filename}`
 }
