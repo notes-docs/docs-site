@@ -152,5 +152,6 @@ urls:
 antora:
   extensions:
     #    - '@antora/pdf-extension'
-#    - require: '@antora/lunr-extension'
-#      languages: [en, zh]
+    #    - require: '@antora/lunr-extension'
+    #      languages: [en, zh]
+    []
