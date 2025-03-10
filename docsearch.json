@@ -3,49 +3,122 @@
   "debug": true,
   "start_urls": [
     {
-      "url": "https://notes-docs.github.io/docs-site/UnderstandingECMAScript6/current/",
+      "url": "https://notes-docs.github.io/docs-site/home/",
+      "selectors_key": "home",
+      "tags": ["home"]
+    },{
+      "url": "https://notes-docs.github.io/docs-site/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": [
+          "UnderstandingECMAScript6",
+          "TypeScriptInAction",
+          "NodejsFromNoviceToExpert",
+          "NodejsDesignPatterns",
+          "NodejsWebDevelopment",
+          "frontEndDevelopmentProjectsWithVUE2",
+          "TypeScriptFullStackDevelopment",
+          "Vue3SourceCodeAnalysis",
+          "VueCoreTechnologyAnalysisAndUni-appCross-platform",
+          "LearningPHP7",
+          "PHP8ProgrammingTipsTricksAndBestPractices",
+          "PHP7DataStructureAndAlgorithm",
+          "PHP7UnderlyingDesignAndSourceCodeImplementation",
+          "MasteringPHPDesignPatterns",
+          "WritingPHPExtensions",
+          "PHPInternalsBook",
+          "TestDrivenDevelopmentWithPHP8",
+          "CleanCodeInPHP",
+          "LearningPHP7HighPerformance",
+          "laravel",
+          "JavaFromNoviceToExpert",
+          "TestDrivenDevelopmentWithJava",
+          "SpringBootInAction",
+          "MyBatisFromNoviceToExpert",
+          "SpringInAction",
+          "GradleInAction",
+          "HeadFirstSpringSecurity",
+          "SpringBootAndSpringCloudMicroservicesInAction",
+          "RocketMQTechnologyInsider",
+          "theGoProgrammingLanguage",
+          "TestDrivenDevelopmentInGo",
+          "gRpc",
+          "gRpcGoForProfessionals",
+          "pythonCrashCourse",
+          "PythonDataStructureAndAlgorithm",
+          "PythonTestingWithPytest2",
+          "PythonAutomatedOperationAndMaintenance",
+          "FlaskWebFullStackDevelopmentPractical",
+          "python3Cookbook",
+          "LearningScrapy",
+          "Python3WebScrapyDevelopInAction",
+          "PythonWebScrapingCookbook",
+          "AntoraManual",
+          "AntoraUIManual",
+          "AsciidoctorJs",
+          "Playwright",
+          "locust",
+          "RedisManual",
+          "HowMySqlWorks",
+          "Jira8Essentials",
+          "JiraInAction",
+          "AccelerateDevOpsWithGitHub"
+        ],
+        "version": [
+          "1.0",
+          "current"
+        ]
+      },
+      "extra_attributes": {
+        "latest": true
+      },
       "selectors_key": "doc",
-      "tags": [
-        "doc"
-      ]
-    }
-  ],
+      "tags": ["doc"]
+    }],
   "selectors": {
     "home": {
       "lvl0": ".article h1",
       "lvl1": ".article h2",
       "lvl2": ".article table h3",
-      "content": {
-        "selector": "main .content p",
-        "default_value": "\u6682\u65e0\u5185\u5bb9"
-      }
+      "text": "main .content p"
     },
     "doc": {
-      "lvl0": "body.article nav h3 a",
+      "lvl0": {
+        "global": true,
+        "selector": "body.article nav h3 a"
+      },
       "lvl1": "main.article .content h1",
       "lvl2": "main.article .content h2",
       "lvl3": "main.article .content h3",
       "lvl4": "main.article .content h4",
       "lvl5": "main.article .content h5",
-      "content": {
-        "selector": "main .content p",
-        "default_value": "\u6682\u65e0\u5185\u5bb9"
-      }
+      "text": "main .content p"
     }
   },
+  "min_indexed_level": 1,
   "custom_settings": {
-    "attributesToRetrieve": [
-      "lvl0",
-      "lvl1",
-      "content"
+    "advancedSyntax": true,
+    "attributesForFaceting": [
+      "component",
+      "version",
+      "latest"
     ],
-    "searchableAttributes": [
-      "lvl0",
-      "lvl1",
-      "content"
+    "attributesToRetrieve": [
+      "anchor",
+      "content",
+      "hierarchy",
+      "url",
+      "component",
+      "version",
+      "latest"
+    ],
+    "attributesToSnippet": [
+      "content:25"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(version)",
+      "desc(weight.level)",
+      "asc(weight.position)"
     ]
-  },
-  "renderJavaScript": true,
-  "js_wait": 5,
-  "nb_hits": 880
+  }
 }
