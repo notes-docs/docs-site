@@ -30,6 +30,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/VueCoreTechnologyAnalysisAndUni-appCross-platform.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/WebRTCAudioVideoRealTimeInteractiveTechnology.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]

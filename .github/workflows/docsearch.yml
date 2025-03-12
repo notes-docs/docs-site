@@ -5,8 +5,9 @@ name: docsearch
 
 on:
   schedule:
-    # 约每天早上8点触发（UTC时间0点）
+    # 北京时间 0 点
     - cron: '0 0 * * *'
+      timezone: Asia/Shanghai
 
 jobs:
   algolia:
