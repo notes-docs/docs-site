@@ -65,6 +65,13 @@ Vue3 源代码分析详解。
 xref:1.0@Vue3SourceCodeAnalysis:ROOT:index.adoc[Vue3 源码分析]
 
 a|
+=== Vue3 实战
+
+Vue.js 3应用开发与核心源码解析
+
+xref:1.0@Vue3ApplicationDevelopmentAndSourceCodeParse:ROOT:index.adoc[Vue3 实战]
+
+a|
 === Vue3和uniapp实战
 
 Vue3 和 uniapp 实战文档。
@@ -83,7 +90,6 @@ a|
 React 进阶、实战。
 
 xref:1.0@TheRoadToAdvancedReact:ROOT:index.adoc[React进阶之路]
-a|
 |===
 
 == PHP
