@@ -4,6 +4,24 @@
 
 记录平时的学习文档。
 
+== AI
+
+AI 相关的知识
+
+[.home-card,cols="3,3,3",grid=none,frame=none]
+|===
+a|
+=== Stable Diffusion AI
+
+Stable Diffusion 生图
+
+xref:1.0@StableDiffusionAIArtFromBeginnerToPro:ROOT:index.adoc[Stable Diffusion]
+a|
+
+a|
+
+|===
+
 == Web
 
 [.home-card,cols="3,3,3,3",grid=none,frame=none]

@@ -12,6 +12,9 @@ content:
     branches: [ master ]
     start_paths: home
 
+  - url: https://github.com/notes-docs/StableDiffusionAIArtFromBeginnerToPro.git
+    branches: [ master ]
+
   - url: https://github.com/notes-docs/UnderstandingECMAScript6.git
     branches: [ master ]
   - url: https://github.com/notes-docs/TypeScriptInAction.git
