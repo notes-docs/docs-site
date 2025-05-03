@@ -39,6 +39,8 @@ content:
     branches: [ master ]
   - url: https://github.com/notes-docs/Vue3ApplicationDevelopmentAndSourceCodeParse.git
     branches: [ master ]
+  - url: https://github.com/notes-docs/HandsOnNuxtWebDev.git
+    branches: [ master ]
 
   - url: https://github.com/notes-docs/LearningPHP7.git
     branches: [ master ]

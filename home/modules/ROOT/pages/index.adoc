@@ -108,6 +108,20 @@ a|
 React 进阶、实战。
 
 xref:1.0@TheRoadToAdvancedReact:ROOT:index.adoc[React进阶之路]
+
+a|
+=== Nuxt 实战
+
+Nuxt 实战
+
+xref:1.0@HandsOnNuxtWebDev
+:ROOT:index.adoc[Nuxt 实战]
+
+a|
+
+a|
+
+a|
 |===
 
 == PHP
